@@ -1,9 +1,7 @@
 
-
 public class testClass {
 
-    public static void main(String[] args) {
-
+    private static void fizzBuzz() {
         for (int i = 1; i < 100; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("fizzbuzz");
@@ -16,6 +14,10 @@ public class testClass {
             }
 
         }
+    }
+
+    public static void main(String[] args) {
+        fizzBuzz();
     }
 
 }
